@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+
+# 数据与产物（体积大，不入库）
+data/*
+!data/README.md
+weights/*
+!weights/.gitkeep
+results/*
+!results/.gitkeep
